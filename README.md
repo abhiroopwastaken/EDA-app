@@ -21,20 +21,20 @@ This includes:
 
 <table style="width:100%">
   <tr>
-    <th><img src="img/ss1.png" width=200/></th>
-    <th><img src="img/ss2.png" width=200/></th>
+    <th><img src="img/ss1.png" /></th>
+    <th><img src="img/ss2.png" /></th>
   </tr>
   <tr>
     <th><img src="img/ss3.png" /></th>
     <th><img src="img/ss4.png" /></th>
   </tr>
   <tr>
-    <th><img src="img/ss5.png" width=200/></th>
-    <th><img src="img/ss6.png" width=200/></th>
+    <th><img src="img/ss5.png" /></th>
+    <th><img src="img/ss6.png" /></th>
   </tr>
   <tr>
-    <th><img src="img/ss7.png" width=200/></th>
-    <th><img src="img/ss8.png" width=200/></th>
+    <th><img src="img/ss7.png" /></th>
+    <th><img src="img/ss8.png" /></th>
   </tr>
   <tr>
     <th><img src="img/ss9.png" width=200/></th>
@@ -44,18 +44,12 @@ This includes:
  
  
  # Flow Chart
- <center>
+ 
  <table style="width:100%" align="center">
   <tr>
     <th><img src="img/flow.png"height=500 width=250/></th>
   </tr>
  </table>
- </center>
-
-<p align="center">
-  <img src="img/flow.png"height=500 width=250/>
-</p>
-
 
 #  Data Source
 
