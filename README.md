@@ -51,7 +51,11 @@ This includes:
   </tr>
  </table>
  </center>
- 
+
+<p align="center">
+  <img src="img/flow.png"height=500 width=250/>
+</p>
+
 
 #  Data Source
 
