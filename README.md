@@ -47,7 +47,7 @@ This includes:
  <centre>
  <table style="width:100%">
   <tr>
-    <th><img src="img/flow.png"height=500 width=5000/></th>
+    <th><img src="img/flow.png"height=500 width=250/></th>
   </tr>
  </table>
  </centre>
