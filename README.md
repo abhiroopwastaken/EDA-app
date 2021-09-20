@@ -44,13 +44,13 @@ This includes:
  
  
  # Flow Chart
- <centre>
+ <center>
  <table style="width:100%">
   <tr>
     <th><img src="img/flow.png"height=500 width=250/></th>
   </tr>
  </table>
- </centre>
+ </center>
  
 
 #  Data Source
