@@ -4,17 +4,18 @@ A web app to perform basic EDA(Exploratory Data Analysis) on user uploaded file.
 The app can be visited at https://eda-app-streamlit.herokuapp.com/
 
 # About the App
-This app is able to provide detailed EDA of the user uploaded file using Pandas Prafiling.
+This app is able to provide detailed EDA of the user uploaded file using Pandas Prafiling. The user is also able to process example dataset which is randomly generated. Wine quality dataset has been provided in the app.
+
 This includes:
--Overview
--Detailed Variable description
--Interaction between any 2 specified Varibles
--Correlations
-    -Pearson's r
-    -Spearman's ρ
-    -Kendall's τ
-    -Phik (φk)
--Missing and Duplicate Values
+- Overview
+- Detailed Variable description
+- Interaction between any 2 specified Varibles
+- Correlations
+  - Pearson's r
+  - Spearman's ρ
+  - Kendall's τ
+  - Phik (φk)
+- Missing and Duplicate Values
 
 # Screenshots of the web app:
 
@@ -55,6 +56,7 @@ This includes:
 #  Data Source
 
 Wine Quality Dataset from the UCI Machine Learning Repository.
+
 P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
 Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
  
