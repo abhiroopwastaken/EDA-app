@@ -4,7 +4,8 @@ A web app to perform basic EDA(Exploratory Data Analysis) on user uploaded file.
 The app can be visited at https://eda-app-streamlit.herokuapp.com/
 
 # About the App
-This app is able to provide detailed EDA of the user uploaded file using Pandas Prafiling.
+This app is able to provide detailed EDA of the user uploaded file using Pandas Prafiling. The user is also able to process example dataset which is randomly generated. Wine quality dataset has been provided in the app.
+
 This includes:
 - Overview
 - Detailed Variable description
