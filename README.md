@@ -1,51 +1,62 @@
-# eda-app
+# EDA app using Pandas-Profiling
+A web app to perform basic EDA(Exploratory Data Analysis) on user uploaded file.
 
-# Watch the tutorial video
+The app can be visited at https://eda-app-streamlit.herokuapp.com/
 
-[How to build an EDA app using Pandas Profiling | Streamlit #19](https://youtu.be/p4uohebPuCg)
+# About the App
+This app is able to provide detailed EDA of the user uploaded file using Pandas Prafiling.
+This includes:
+-Overview
+-Detailed Variable description
+-Interaction between any 2 specified Varibles
+-Correlations
+    -Pearson's r
+    -Spearman's ρ
+    -Kendall's τ
+    -Phik (φk)
+-Missing and Duplicate Values
 
-<a href="https://youtu.be/p4uohebPuCg"><img src="http://img.youtube.com/vi/p4uohebPuCg/0.jpg" alt="How to build an EDA app using Pandas Profiling | Streamlit #19" title="How to build an EDA app using Pandas Profiling | Streamlit #19" width="400" /></a>
+# Screenshots of the web app:
 
-This is me
+<table style="width:100%">
+  <tr>
+    <th><img src="img/ss1.png" width=200/></th>
+    <th><img src="img/ss2.png" width=200/></th>
+  </tr>
+  <tr>
+    <th><img src="img/ss3.png" /></th>
+    <th><img src="img/ss4.png" /></th>
+  </tr>
+  <tr>
+    <th><img src="img/ss5.png" width=200/></th>
+    <th><img src="img/ss6.png" width=200/></th>
+  </tr>
+  <tr>
+    <th><img src="img/ss7.png" width=200/></th>
+    <th><img src="img/ss8.png" width=200/></th>
+  </tr>
+  <tr>
+    <th><img src="img/ss9.png" width=200/></th>
+    <th><img src="img/ss10.png" width=200/></th>
+  </tr>
+ </table>
+ 
+ 
+ # Flow Chart
+ 
+ <table style="width:100%">
+  <tr>
+    <th><img src="img/flow.png" width=500/></th>
+  </tr>
+ </table>
+ 
+ 
 
-# Demo
+#  Data Source
 
-Launch the web app:
+Wine Quality Dataset from the UCI Machine Learning Repository.
+P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
+Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+ 
+ 
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/eda-app/main/app.py)
-
-# Reproducing this web app
-To recreate this web app on your own computer, do the following.
-
-### Create conda environment
-Firstly, we will create a conda environment called *eda*
-```
-conda create -n eda python=3.7.9
-```
-Secondly, we will login to the *eda* environment
-```
-conda activate eda
-```
-### Install prerequisite libraries
-
-Download requirements.txt file
-
-```
-wget https://raw.githubusercontent.com/dataprofessor/eda-app/main/requirements.txt
-
-```
-
-Pip install libraries
-```
-pip install -r requirements.txt
-```
-
-###  Download and unzip contents from GitHub repo
-
-Download and unzip contents from https://github.com/dataprofessor/eda-app/archive/main.zip
-
-###  Launch the app
-
-```
-streamlit run app.py
-```
