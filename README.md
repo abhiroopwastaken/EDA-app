@@ -45,7 +45,7 @@ This includes:
  
  # Flow Chart
  <center>
- <table style="width:100%">
+ <table style="width:100%" align="center">
   <tr>
     <th><img src="img/flow.png"height=500 width=250/></th>
   </tr>
