@@ -6,15 +6,15 @@ The app can be visited at https://eda-app-streamlit.herokuapp.com/
 # About the App
 This app is able to provide detailed EDA of the user uploaded file using Pandas Prafiling.
 This includes:
--Overview
--Detailed Variable description
--Interaction between any 2 specified Varibles
--Correlations
-    -Pearson's r
-    -Spearman's ρ
-    -Kendall's τ
-    -Phik (φk)
--Missing and Duplicate Values
+- Overview
+- Detailed Variable description
+- Interaction between any 2 specified Varibles
+- Correlations
+  - Pearson's r
+  - Spearman's ρ
+  - Kendall's τ
+  - Phik (φk)
+- Missing and Duplicate Values
 
 # Screenshots of the web app:
 
